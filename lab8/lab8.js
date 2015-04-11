@@ -5,6 +5,48 @@
 * parametro se le envia otra función, y la función que lo
 * recibe, espera a que se ejecute esa función
 */
+//funcion suma
+function miSuma(miSuma){
+	miSuma(3, 4);
+}
+
+// uso del callback
+miSuma(function(a,b){
+	alert("Resultado:" +(a+b));
+});
+
+//funcion resta
+function miResta(miResta){
+	miResta(8, 4);
+}
+
+// uso del callback
+miResta(function(a,b){
+	alert("Resultado:" +(a-b));
+});
+
+
+//funcion multiplicar
+function miMult(miMult){
+	miMult(10, 5);
+}
+
+// uso del callback
+miMult(function(a,b){
+	alert("Resultado:" +(a*b));
+});
+
+//funcion dividir
+function miDiv(miDiv){
+	miDiv(20, 2);
+}
+
+// uso del callback
+miDiv(function(a,b){
+	alert("Resultado:" +(a/b));
+});
+
+
 
 // Creación del Callback
 function usarUnCallback(miCallback){
