@@ -178,7 +178,9 @@ function Validate(){};
   });
 
 
+
 $(document).on('click', '#info', function(){
+
     $('#openModal > div > h2, #openModal > div > ul').remove();
 
     $('#openModal > div').append(
@@ -192,15 +194,12 @@ $(document).on('click', '#info', function(){
       '<li>La ciudad donde habita es: ' + localStorage.getItem('city') + '</li></ul>'  
 
     );
-
-  }
-
-    //$('button') bind('click', function(){ $('#info') .remove();}
     var meals =  JSON.parse(localStorage.getItem('meals'));
 
     $.each(meals, function(key, value){
           $('#listMeals > ul').append('<li>El producto ' + key + ' cuesta $' + value + ' M/Cte</li>');
     });
+   
   });
 
 });
