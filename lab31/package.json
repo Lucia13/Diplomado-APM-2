@@ -1,0 +1,16 @@
+{
+  "name": "la31",
+  "version": "1.0.0",
+  "description": "gulp trabajo",
+  "main": "gulfile.js",
+  "scripts": {
+    "test": "TDD"
+  },
+  "keywords": [
+    "trabajo",
+    "con",
+    "gulp"
+  ],
+  "author": "",
+  "license": "ISC"
+}

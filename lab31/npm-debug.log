@@ -1,0 +1,65 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'gulp',
+1 verbose cli   '-g' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose cache add [ 'gulp', null ]
+6 verbose cache add name=undefined spec="gulp" args=["gulp",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'gulp',
+7 verbose parsed url   path: 'gulp',
+7 verbose parsed url   href: 'gulp' }
+8 silly lockFile 9750c68d-gulp gulp
+9 verbose lock gulp C:\Users\Adminespec.UPILOTO\AppData\Roaming\npm-cache\9750c68d-gulp.lock
+10 silly lockFile 9750c68d-gulp gulp
+11 silly lockFile 9750c68d-gulp gulp
+12 verbose addNamed [ 'gulp', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 72f4391e-gulp gulp@
+15 verbose lock gulp@ C:\Users\Adminespec.UPILOTO\AppData\Roaming\npm-cache\72f4391e-gulp.lock
+16 silly addNameRange { name: 'gulp', range: '*', hasData: false }
+17 verbose request where is /gulp
+18 verbose request registry http://registry.npmjs.org/
+19 verbose request id f35db6d236c0b3f7
+20 verbose url raw /gulp
+21 verbose url resolving [ 'http://registry.npmjs.org/', './gulp' ]
+22 verbose url resolved http://registry.npmjs.org/gulp
+23 verbose request where is http://registry.npmjs.org/gulp
+24 info trying registry request attempt 1 at 21:30:39
+25 http GET http://registry.npmjs.org/gulp
+26 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+27 info trying registry request attempt 2 at 21:30:51
+28 http GET http://registry.npmjs.org/gulp
+29 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+30 info trying registry request attempt 3 at 21:31:53
+31 http GET http://registry.npmjs.org/gulp
+32 silly lockFile 72f4391e-gulp gulp@
+33 silly lockFile 72f4391e-gulp gulp@
+34 error network getaddrinfo ENOTFOUND
+34 error network This is most likely not a problem with npm itself
+34 error network and is related to network connectivity.
+34 error network In most cases you are behind a proxy or have bad network settings.
+34 error network
+34 error network If you are behind a proxy, please make sure that the
+34 error network 'proxy' config is set properly.  See: 'npm help config'
+35 error System Windows_NT 6.1.7601
+36 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "gulp" "-g"
+37 error cwd C:\wamp\www\diplomado-app-2\lab31
+38 error node -v v0.10.35
+39 error npm -v 1.4.28
+40 error syscall getaddrinfo
+41 error code ENOTFOUND
+42 error errno ENOTFOUND
+43 verbose exit [ 1, true ]
